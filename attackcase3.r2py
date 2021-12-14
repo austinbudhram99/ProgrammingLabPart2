@@ -11,7 +11,7 @@ myfile=ABopenfile("testfile.txt",True)  #Create an AB file
 
 try:
  # Empty/New File should have contents 'SE' satisfying the requirement
- assert('SE' == myfile.readat(2,0))
+ assert('SE' == myfile.readat(None,0))
  # Close the file:
  myfile.close()
 except:
