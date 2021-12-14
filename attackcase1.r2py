@@ -12,13 +12,12 @@ myfile=ABopenfile("testfile.txt",True)  #Create an AB file
 
 # Write valid data to the file
 myfile.writeat("StestE",0)
+myfile2=ABopenfile("testfile.txt",True)
+myfile2.writeat("S987654321E",0)
 
 #Close the file
 myfile.close()
-
-myfile=ABopenfile("testfile.txt",True)
-myfile.writeat("securityE",6)
-myfile.close()
+myfile2.close()
 
 # READ OPERATION
 # Reopen file again to read
@@ -34,5 +33,3 @@ except:
  myfile.close()
  #log("Valid Data write to a file is unsuccessfull!")
 
-finally:
-  exitall()
