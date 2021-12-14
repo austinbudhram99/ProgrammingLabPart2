@@ -17,7 +17,8 @@ myfile.writeat("StestE",0)
 myfile.close()
 
 myfile=ABopenfile("testfile.txt",True)
-myfile.writeat("securityE,6)
+myfile.writeat("securityE",6)
+myfile.close()
 
 # READ OPERATION
 # Reopen file again to read
@@ -33,5 +34,5 @@ except:
  myfile.close()
  #log("Valid Data write to a file is unsuccessfull!")
 
-finally
+finally:
   exitall()
