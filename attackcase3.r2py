@@ -17,5 +17,5 @@ try:
 except:
  myfile.close()
  # Error Handle or Failure Condition
- log("Empty file is not handled properly!")
+ #log("Empty file is not handled properly!")
 
