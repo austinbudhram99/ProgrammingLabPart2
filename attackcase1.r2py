@@ -31,5 +31,5 @@ try:
 except:
  #Close the file
  myfile.close()
- #log("Valid Data write to a file is unsuccessfull!")
+ log("Valid Data write to a file is unsuccessfull!")
 
